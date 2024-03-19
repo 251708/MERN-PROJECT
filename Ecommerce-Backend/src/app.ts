@@ -1,9 +1,9 @@
 import express from "express";
 import userRoute from './routes/user.js'
-const port = 3000;
+const port = 4000;
 const app = express();
 app.get("/" , (req,res) => {
-    res.send("API working with /api/v1");
+    res.send("Mridul mor");
     
 });
 
